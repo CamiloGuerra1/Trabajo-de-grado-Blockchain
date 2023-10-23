@@ -7,4 +7,4 @@ El presente proyecto denominado “Almacenamiento, trazabilidad e inmutabilidad 
 
 Para poder evidenciar estas características se implementaron dos contratos inteligentes; para el primer contrato inteligente se realiza la captura de la información con respecto a la gestión del control vehicular, dicho proceso se encarga de registrar el ingreso y salida de vehículos a un parqueadero, en el segundo contrato inteligente se gestiona la administración de reservas, que permiten realizar la reservación de un cupo de parqueadero, para posteriormente ser enviada a la cadena de bloques, sin la alteración de su funcionamiento para así poder obtener la información requerida y una vez implantado el respectivo código se realizaron y ejecutaron planes de prueba, las cuales se podrán evidenciar dichas implementaciones y así generar una respuesta del buen o mal uso de un cupo de parqueadero.
 
-NOTA: el presente proyecto, fue desarrollado en una maquina con sistema operativo mavOs (Macbook air m2)
+NOTA: el presente proyecto, fue desarrollado en una maquina con sistema operativo macOs (Macbook air m2)
