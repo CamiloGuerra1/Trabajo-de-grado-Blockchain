@@ -68,7 +68,7 @@ Paso No.15: Es ejecutado el presente comando, con el fin de realizar la ejecuci�
 | touch "code ." |
 | ------------- |
 --------------------------------------------------------------------
-Paso No.16: Una vez que se haya ejecutado visual studio code, se procede agregar las extensiones necesarias para la ejecución del proyecto, en el apartado izquierdo de la ventana, se da clic en el apartado de "extensiones>", buscar las siguientes extensiones:
+Paso No.16: Una vez que se haya ejecutado visual studio code, se procede agregar las extensiones necesarias para la ejecución del proyecto, en el apartado izquierdo de la ventana, se da clic en el apartado de "extensiones", buscar las siguientes extensiones:
   1. solidity de "Julian Blnaco"
   2. npm Intellisense de "Cristina Kohler"
 y se procede a dar clic en la opciópn "Instalar".
