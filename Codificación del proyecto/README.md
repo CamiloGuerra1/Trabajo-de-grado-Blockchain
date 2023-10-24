@@ -15,7 +15,7 @@ Los oráculos son aquellos componentes que presentan un servicio, el cual permit
 ------------------------------------------
   **3. Componente generadorABI:**
 
-El ABI o mayormente conocido como Application binary interface-Interfaz binaria de aplicación, es implementado como medio de interacción o comunicación con los contratos inteligente con la blockchain, para el presente proyecto es implementado el ABI, con el fin de poder gestionarlo como mecanismon necesarios para su interacción, el ABI normalmente es una descripción de las funciones y eventos de un contrato inteligente que se pueden llegar a ser invocados desde un ente externo.
+El ABI o mayormente conocido como Application binary interface-Interfaz binaria de aplicación, es implementado como medio de interacción o comunicación con los contratos inteligente con la blockchain, para el presente proyecto es implementado el ABI, con el fin de poder gestionarlo como mecanismos necesarios para su interacción, el ABI normalmente es una descripción de las funciones y eventos de un contrato inteligente que se pueden llegar a ser invocados desde un ente externo.
 
 ------------------------------------------
   **4. Componente trazabilidad:**
