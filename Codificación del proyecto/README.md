@@ -21,3 +21,7 @@ El ABI o mayormente conocido como Application binary interface-Interfaz binaria 
   **4. Componente trazabilidad:**
 
 El componente trazabilidad, es implementado con el fin de poder gestionar la lectura de la información o transacciones generadas por medio de los contratos inteligentes a la cadena de bloques, a través de la librería ethers.js de javaScript, se realiza la respectiva configuración de conectividad con la cadena de bloques (Ganache) y la implementación del contrato ABI (Application binary interface- Interfaz binaria de aplicación), para la invocación de funciones que se encuentran en los contratos inteligentes.
+
+------------------------------------------
+**Nota:** Para este proyecto, se realizo la implementación de las caracteristicas de trazabilidad e inmutabilidad de la blockchain y a su vez el almacenamiento de la infomración, para el caso de estudio seleccionado en dos de requisitos principales, es por esto que para prevenir errores en la configuración y despliegue de contratos intelignetes, son creados dos directorios para cada unos de los requitos principales del sistema.
+------------------------------------------
