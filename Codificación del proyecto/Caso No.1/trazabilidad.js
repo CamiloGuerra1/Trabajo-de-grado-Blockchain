@@ -16,7 +16,8 @@ async function trazabilidadReserva() {
             var numeroBloque = await urlDireccion.getBlock(i);
             console.log('Recepcionamiento de la data en archivo JSON del caso de uso "Reserva": ', informaciónDatos);
 
-            console.log('\nLa traazabilidad para el caso de uso "Reserva" es:', //Visualización de la información enviada
+            //Visualización de la información enviada
+            console.log('\nLa traazabilidad para el caso de uso "Reserva" es:', 
             '\nIdentificador de la reserva: ', informaciónDatos.identificadorReserva,
             '\nCódigo del parqueadero: ', informaciónDatos.codigoParqueadero,
             '\nIdentificador de cupo del parqueadero: ', informaciónDatos.identificadorCupoParqueadero,
@@ -24,8 +25,9 @@ async function trazabilidadReserva() {
             '\nFecha de la reserva: ', informaciónDatos.fechaReserva,
             '\nHora de la reserva: ', informaciónDatos.horaReserva,
             '\nFecha y hora de la transacción: ', informaciónDatos.fechaHoraTransaccion);
-
-            console.log('\nInformación importante, referente a la transacción:', //Visualización de la información relacionada a la transacción generada
+            
+            //Visualización de la información relacionada a la transacción generada
+            console.log('\nInformación importante, referente a la transacción:', 
             `\nNúmero de bloque de la transacción: ${i}`,
             '\nHash de la transacción: ', numeroBloque.transactions, 
             '\nHash del bloque de la transacción: ', numeroBloque.hash,
