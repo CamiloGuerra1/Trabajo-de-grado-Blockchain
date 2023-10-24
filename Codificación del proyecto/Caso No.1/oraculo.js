@@ -25,7 +25,7 @@ function escuchar_proyecto(myContract, accounts){
     console.log('Conexión exitosa con la base de datos: Proyecto\nGestionando la actividad para la tabla: Reserva\n');
     console.log('Contrato desplegado en la red de Ganache con la siguiente dirección: ', myContract.options.address, '\n'); 
     var event1 = myCon.add(
-        'proyecto.reserva',
+        'proyecto.reserva', //Asignación de la base de datos y tabla, para la detección de eventos
         function(oldRow, newRow, event){
             if(oldRow === null) { //Detección de inserciones en la base de datos
                 var identificadorReserva = newRow.fields['identificadorReserva'].toString(); //Conversión de información a cadena de caracteres
