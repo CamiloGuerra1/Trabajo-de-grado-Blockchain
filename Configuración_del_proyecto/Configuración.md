@@ -75,6 +75,6 @@ y se procede a dar clic en la opciópn "Instalar".
 
 --------------------------------------------------------------------
 Paso No.17: Por medio de la paleta de comandos de visual studio code, ubicada en el apartado inferior izquierda se procede a dar clic en la siguiente opción:
-  • configuración.
-  • paleta de comandos
+  1. configuración.
+  2. paleta de comandos
 Posterioremtne, se procede a buscar "Solidity: Change global compiler versión (Remote)"; realizar la busqueda de la versión del compialdor de solidity, gestionar la instalación y buscar la versión del compialdor del paso No.7, con el fin de evitar mensajes de advertencia, referente a nuevas actualizaciones de dicho compilador.
