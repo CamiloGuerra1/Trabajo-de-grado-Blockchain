@@ -1,10 +1,10 @@
 async function trazabilidadControlVehicular() {    
     var {ethers} = require('ethers');
-    var direcion = 'http://127.0.0.1:7545';
+    var direcion = 'http://127.0.0.1:7545'; //Agregar la dirección de y puerto de la red de ganache (por medio de linea de comandos o software)
     var urlDireccion = new ethers.providers.JsonRpcProvider(direcion);
     var contratoABI = require('./ContractABI.json');
-    var direccionContrato = '0x5BC1631FD57fc13f504445FFC7a1DDfd090EE360';
-    var senderDireccion = '0x7bf3035823290ca4eC5CB80195ABDd741da8E01C';
+    var direccionContrato = '0x5BC1631FD57fc13f504445FFC7a1DDfd090EE360'; //Dirección del contrato inteligente, visualizado en la red de ganache
+    var senderDireccion = '0x7bf3035823290ca4eC5CB80195ABDd741da8E01C';  //Dirección de envio de información del contrato inteligente, visualizado en la red de ganache
     var contract = new ethers.Contract(direccionContrato, contratoABI, urlDireccion);
     var gasPrice = await urlDireccion.getGasPrice();
     var latestBlockNumber = await urlDireccion.getBlockNumber();
@@ -12,7 +12,7 @@ async function trazabilidadControlVehicular() {
         var counterBigNumber = await contract.getCounter();
         var counter = counterBigNumber.toNumber();
         for (let i = 2; i < counter+1; i++){
-            var data = await contract.getControl(i, {from: senderDireccion}); 
+            var data = await contract.getControl(i, {from: senderDireccion});  //La función getControl, es obtenida del contrato inteligente
             var numeroBloque = await urlDireccion.getBlock(i);
             console.log('Recepcionamiento de la data en archivo JSON:', data);
 
