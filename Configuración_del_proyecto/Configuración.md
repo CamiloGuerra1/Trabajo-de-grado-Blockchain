@@ -69,12 +69,14 @@ Paso No.15: Es ejecutado el presente comando, con el fin de realizar la ejecuci�
 | ------------- |
 --------------------------------------------------------------------
 Paso No.16: Una vez que se haya ejecutado visual studio code, se procede agregar las extensiones necesarias para la ejecuci처n del proyecto, en el apartado izquierdo de la ventana, se da clic en el apartado de "extensiones", buscar las siguientes extensiones:
-  1. solidity de "Julian Blnaco"
-  2. npm Intellisense de "Cristina Kohler"
+  1. solidity de "Julian Blnaco".
+  2. npm Intellisense de "Cristina Kohler".
+     
 y se procede a dar clic en la opci처pn "Instalar".
 
 --------------------------------------------------------------------
 Paso No.17: Por medio de la paleta de comandos de visual studio code, ubicada en el apartado inferior izquierda se procede a dar clic en la siguiente opci처n:
   1. configuraci처n.
-  2. paleta de comandos
+  2. paleta de comandos.
+     
 Posterioremtne, se procede a buscar "Solidity: Change global compiler versi처n (Remote)"; realizar la busqueda de la versi처n del compialdor de solidity, gestionar la instalaci처n y buscar la versi처n del compialdor del paso No.7, con el fin de evitar mensajes de advertencia, referente a nuevas actualizaciones de dicho compilador.
