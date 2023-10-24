@@ -9,7 +9,7 @@ async function trazabilidadControlVehicular() {
     var gasPrice = await urlDireccion.getGasPrice();
     var latestBlockNumber = await urlDireccion.getBlockNumber();
     try {
-        var counterBigNumber = await contract.getCounter();
+        var counterBigNumber = await contract.getCounter();  //La función getCounter, es obtenida del contrato inteligente
         var counter = counterBigNumber.toNumber();
         for (let i = 2; i < counter+1; i++){
             var data = await contract.getControl(i, {from: senderDireccion});  //La función getControl, es obtenida del contrato inteligente
