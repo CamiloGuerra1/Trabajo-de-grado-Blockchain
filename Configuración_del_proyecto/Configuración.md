@@ -16,6 +16,7 @@ Paso No.2: Acceder al directorio, previamente creado.
 Paso No.3: Identificar la versión instalada de node.js y de npm.
 | node --version  | npm --version |
 | ------------- | ------------- |
+| Versión implementada para node: 14.21.3 | Versión implementada para npm: 6.14.18|
 --------------------------------------------------------------------
 Paso No.4: Permite la automatización en la instalación de las dependencias.
 | npm install .y | 
